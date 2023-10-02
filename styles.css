@@ -267,3 +267,54 @@ ul a {
 .copy-right {
     padding-top: 5px;
 }
+
+@media(max-width: 600px) {
+    html {
+        height: auto;
+        width: auto;
+    }
+
+    .nav-bar{
+        font-size: 5px;
+        height: auto;
+        width: auto;
+    }
+
+    .nav-logo{
+        width: auto;
+    }
+
+    .nav-search {
+        font-size: 1px;
+        height: auto;
+        width: 100px;
+    }
+
+    .hero-section{
+        height: auto;
+        width:auto;
+    }
+
+    .hero-msg{
+        margin-top: 80px;
+        height: auto;
+        width: 350px;
+    }
+    
+    .shop-section{
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box {
+        height: auto;
+        width: auto;
+    }
+
+    .logo2 {
+        height: 70px;
+        width: 220px;
+    }
+}
